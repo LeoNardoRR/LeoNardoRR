@@ -1,4 +1,4 @@
-## Olá! Eu sou o Leonardo Ribeiro, tenho 21 anos! 🙍🏿
+## Olá! Me chamo Leonardo Ribeiro e tenho 21 anos 🙍🏿
 
 - Estudo segurança da Informação pela FATEC 📚
 - Estudo programação pela Alura 💻
