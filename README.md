@@ -1,7 +1,17 @@
+ <!-- Spotify Now Playing Card https://github.com/novatorem/novatorem -->
+<div align="center">
+  <a href="https://open.spotify.com/user/a05xjm5ey5mxrqz4j8shvnpqn">
+    <img height ="300em" display ="flex"  align="right"  src="https://spotify-github-profile.vercel.app/api/view.svg?uid=a05xjm5ey5mxrqz4j8shvnpqn&redirect=true][https://spotify-github-profile.vercel.app/api/view.svg?uid=a05xjm5ey5mxrqz4j8shvnpqn&cover_image=true&theme=default&bar_color_cover=true" 
+    alt="Spotify now playing Léo"/>
+  </a>
+</div>
+
 ## Olá! Me chamo Leonardo Ribeiro e tenho 21 anos 🙍🏿
 
 - Estudo segurança da Informação pela FATEC 📚
 - Estudo programação pela Alura 💻
+
+
 
  Contador de visitas: <br>
 <img src="https://profile-counter.glitch.me/LeoNardoRR/count.svg" />
@@ -11,14 +21,7 @@
   <img height="160em" src="https://github-readme-stats.vercel.app/api?username=LeoNardoRR&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
   <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeoNardoRR&layout=compact&langs_count=7&theme=dracula"/>
 </div>
- 
- <!-- Spotify Now Playing Card https://github.com/novatorem/novatorem -->
-<div align="center">
-  <a href="https://open.spotify.com/user/a05xjm5ey5mxrqz4j8shvnpqn">
-    <img height ="200em" display ="flex"  justify-content = "right" src="https://spotify-github-profile.vercel.app/api/view.svg?uid=a05xjm5ey5mxrqz4j8shvnpqn&redirect=true][https://spotify-github-profile.vercel.app/api/view.svg?uid=a05xjm5ey5mxrqz4j8shvnpqn&cover_image=true&theme=default&bar_color_cover=true" 
-    alt="Spotify now playing Léo"/>
-  </a>
-</div>
+
  
 ## Tecnologias que aprendi:
 
