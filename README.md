@@ -11,7 +11,14 @@
   <img height="160em" src="https://github-readme-stats.vercel.app/api?username=LeoNardoRR&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
   <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeoNardoRR&layout=compact&langs_count=7&theme=dracula"/>
 </div>
-  
+ 
+ <!-- Spotify Now Playing Card https://github.com/novatorem/novatorem -->
+<div align="center">
+  <a href="https://open.spotify.com/user/Léo">
+    <img src="https://spotify-now-playing-Léo.vercel.app/api/spotify?background_color=181413&border_color=ffffff)" alt="Spotify now playing Léo"/>
+  </a>
+</div>
+ 
 ## Tecnologias que aprendi:
 
 <div style="display: inline_block">
