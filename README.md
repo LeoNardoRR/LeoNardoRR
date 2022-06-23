@@ -3,6 +3,9 @@
 - Estudo segurança da Informação pela FATEC 📚
 - Estudo programação pela Alura 💻
 
+ Contador de visitas: <br>
+<img src="https://profile-counter.glitch.me/LeoNardoRR/count.svg" />
+
 <div align="center">
   <a href="https://github.com/LeoNardoRR">
   <img height="160em" src="https://github-readme-stats.vercel.app/api?username=LeoNardoRR&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
