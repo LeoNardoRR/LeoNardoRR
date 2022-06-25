@@ -1,7 +1,7 @@
  <!-- Spotify Now Playing Card https://github.com/novatorem/novatorem -->
 <div align="center">
   <a href="https://open.spotify.com/user/a05xjm5ey5mxrqz4j8shvnpqn">
-    <img height ="220em" display ="flex"  align="right"  src="https://spotify-github-profile.vercel.app/api/view.svg?uid=a05xjm5ey5mxrqz4j8shvnpqn&redirect=true][https://spotify-github-profile.vercel.app/api/view.svg?uid=a05xjm5ey5mxrqz4j8shvnpqn&cover_image=true&theme=default&bar_color_cover=true" 
+    <img height ="200em" display ="flex"  align="right"  src="https://spotify-github-profile.vercel.app/api/view.svg?uid=a05xjm5ey5mxrqz4j8shvnpqn&redirect=true][https://spotify-github-profile.vercel.app/api/view.svg?uid=a05xjm5ey5mxrqz4j8shvnpqn&cover_image=true&theme=default&bar_color_cover=true" 
     alt="Spotify now playing Léo"/>
   </a>
 </div>
