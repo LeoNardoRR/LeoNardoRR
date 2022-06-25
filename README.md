@@ -1,3 +1,17 @@
+
+## Olá! Me chamo Leonardo Ribeiro e tenho 21 anos 🙍🏿
+
+- Estudo segurança da Informação pela FATEC 📚
+- Estudo programação pela Alura 💻
+
+ Contate-me:
+
+ <a href="https://www.linkedin.com/in/leonardo-r2022" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+
+ Contador de visitas: <br>
+<img src="https://profile-counter.glitch.me/LeoNardoRR/count.svg" />
+
+
  <!-- Spotify Now Playing Card https://github.com/novatorem/novatorem -->
 <div align="center">
   <a href="https://open.spotify.com/user/a05xjm5ey5mxrqz4j8shvnpqn">
@@ -6,15 +20,6 @@
   </a>
 </div>
 
-## Olá! Me chamo Leonardo Ribeiro e tenho 21 anos 🙍🏿
-
-- Estudo segurança da Informação pela FATEC 📚
-- Estudo programação pela Alura 💻
-
-
-
- Contador de visitas: <br>
-<img src="https://profile-counter.glitch.me/LeoNardoRR/count.svg" />
 
 <div align="center">
   <a href="https://github.com/LeoNardoRR">
@@ -42,9 +47,5 @@
    <img align ="center" alt="php" widht="50px" height="80px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
       
 </div><br/>
-  
- Contate-me:
-
- <a href="https://www.linkedin.com/in/leonardo-r2022" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
   
 ![Snake eif](https://github.com/LeoNardoRR/LeoNardoRR/blob/output/github-contribution-grid-snake.svg)
