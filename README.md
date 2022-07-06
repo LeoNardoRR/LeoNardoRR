@@ -1,7 +1,7 @@
 
  <div align="left">
  
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=26&duration=3500&color=FFFFFF&background=00FF8E00&left=true&multiline=true&width=650&height=140&lines=Hi!+I'm+Léo,+;I'm+a+developer!;Feel+free+to+take+a+look+my+repositories!+)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=26&duration=3500&color=FFFFFF&background=00FF8E00&left=true&multiline=true&width=650&height=140&lines=Hi!+I'm+Léo,+;I'm+a+developer!;Feel+free+to+take+a+look+my+repositories.+)](https://git.io/typing-svg)
 </div>
 
 - Estudo segurança da Informação pela FATEC 📚
