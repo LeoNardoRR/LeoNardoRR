@@ -4,14 +4,14 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?size=26&duration=3500&color=FFFFFF&background=00FF8E00&left=true&multiline=true&width=650&height=140&lines=Hi!+I'm+Léo,+;I'm+a+developer!;Feel+free+to+take+a+look+my+repositories.+)](https://git.io/typing-svg)
 </div>
 
-- Estudo Segurança da Informação pela FATEC 📚
-- Estudo programação pela Alura 💻
+- Security Information Student - FATEC 📚
+- programming Student - Alura 💻
 
- Contate-me:
+Contact me:
 
  <a href="https://www.linkedin.com/in/leonardo-r2022" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 
- Contador de visitas: <br>
+visit counter: <br>
 <img src="https://profile-counter.glitch.me/LeoNardoRR/count.svg" />
 
 
@@ -31,7 +31,7 @@
 </div>
 
  
-## Tecnologias que aprendi:
+## already learned:
 
 <div style="display: inline_block">
   <img align="center" alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
@@ -41,7 +41,7 @@
   <img align="center" alt="py" widht="50px" height="60px" img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
           
  
-## Tecnologias que estou aprendendo:  
+## Learning:  
   
   <img align ="center" alt="php" widht="50px" height="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" />
   <img align="center" alt="ts" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
