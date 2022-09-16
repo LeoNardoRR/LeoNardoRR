@@ -38,12 +38,12 @@ Visit counter: <br>
   <img align="center" alt="css" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img align="center" alt="js" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> 
   <img align="center" alt="py" widht="50px" height="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
-  <img align="center" alt="py" widht="50px" height="60px" img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
           
  
 ## Learning in the moment:  
   
   <img align ="center" alt="php" widht="50px" height="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" />
+  <img align="center" alt="py" widht="50px" height="60px" img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
       
 </div><br/>
   
