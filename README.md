@@ -43,7 +43,6 @@ Visit counter: <br>
 ## Learning in the moment:  
   
   <img align ="center" alt="php" widht="50px" height="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" />
-  <img align="center" alt="py" widht="50px" height="60px" img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
       
 </div><br/>
   
