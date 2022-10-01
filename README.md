@@ -42,7 +42,7 @@ Visit counter: <br>
 
  <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=mysql,postgresql,php,bootstrap,laravel,nodejs,angular,wordpress,jquery,scss"/>
+    <img src="https://skillicons.dev/icons?i=mysql,postgresql,php,bootstrap,laravel"/>
   </a>
 </p>
  
