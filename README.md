@@ -1,7 +1,7 @@
 
  <div align="left">
  
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=26&duration=3500&color=FFFFFF&background=00FF8E00&left=true&multiline=true&width=650&height=140&lines=Hi!+I'm+Léo,+;I'm+a+developer!;Feel+free+to+take+a+look+my+repositories.+)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=26&duration=2500&color=FFFFFF&background=00FF8E00&left=true&multiline=true&width=650&height=140&lines=Hi!+I'm+Léo,+;stutent+developer!;Feel+free+to+take+a+look+my+repositories.+)](https://git.io/typing-svg)
 </div>
 
 - Security Information Student - FATEC 📚
@@ -42,7 +42,7 @@ Visit counter: <br>
 
  <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=mysql,postgresql,php,bootstrap,laravel,nodejs"/>
+    <img src="https://skillicons.dev/icons?i=mysql,postgresql,php,bootstrap,laravel,nodejs,angular,wordpress,jquery,scss"/>
   </a>
 </p>
  
