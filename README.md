@@ -21,6 +21,7 @@ Contact me:
   <img height="140em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeoNardoRR&layout=compact&langs_count=7&theme=dracula"/>
 </div>
   
+</br>
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -28,7 +29,6 @@ Contact me:
   </a>
 </p>
  
-- Learning:
 
  <p align="center">
   <a href="https://skillicons.dev">
