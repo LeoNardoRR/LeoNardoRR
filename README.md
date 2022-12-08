@@ -31,6 +31,7 @@ Contact me:
   </a>
 </p>
  
+Aprendendo:
 
  <p align="center">
   <a href="https://skillicons.dev">
