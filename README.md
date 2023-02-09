@@ -32,7 +32,7 @@ Contact me:
   </a>
 </p>
  
-Aprendendo:
+Learning:
 
  <p align="center">
   <a href="https://skillicons.dev">
