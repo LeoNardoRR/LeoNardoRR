@@ -4,12 +4,13 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?size=26&duration=2500&color=FFFFFF&background=00FF8E00&left=true&multiline=true&width=650&height=140&lines=Hi!+I'm+Léo,+;student+developer!;Feel+free+to+take+a+look+my+repositories.+)](https://git.io/typing-svg)
 </div>
 
-- Security Information Student - FATEC 📚
-- Programming Student - Alura 💻
+- Security Information Student - FATEC (4/6) 📚
+- Scientific Researcher (Quantum computing) - FATEC 👨‍💼 
 
-Contact me:
+**CONTACT ME:**
 
  <a href="https://www.linkedin.com/in/leonardo-r2022" target="_blank">
+ 
  <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a><br>
 
 <br>
