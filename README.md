@@ -36,7 +36,7 @@ Learning:
 
  <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=mysql,postgresql,php,bootstrap,laravel"/>
+    <img src="https://skillicons.dev/icons?i=mysql,java,bootstrap"/>
   </a>
 </p>
  
