@@ -7,6 +7,24 @@
 - Security Information Student - FATEC (4/6) 📚
 - Scientific Researcher (Quantum computing) - FATEC 👨‍💼 
 
+```javascript
+ 
+const WhoAmI = 
+{
+  user: "Leonardo R.",
+  student: "Java and Silq",
+  hobbies:
+   "Studying",
+   "Watch Movies",
+}
+	
+ function getCurrentCity() 
+{
+	return Americana_Sao_Paulo_Brazil
+}
+
+ ```
+ 
 **CONTACT ME:**
 
 [![LinkedIn URL](https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leonardo-r2022)
