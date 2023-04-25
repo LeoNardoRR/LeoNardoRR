@@ -25,6 +25,11 @@ const WhoAmI =
 
  ```
  
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=LeoNardoRR/LeoNardoRR&type=Date)](https://star-history.com/#LeoNardoRR/LeoNardoRR&Date)
+
+
 **CONTACT ME:**
 
 [![LinkedIn URL](https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leonardo-r2022)
