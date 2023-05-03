@@ -13,9 +13,10 @@ const WhoAmI =
 {
   user: "Leonardo R.",
   student: "Java and Silq",
-  hobbies:
+  hobbies: [
    "Studying",
    "Watch Movies",
+  ]
 }
 	
 function getCurrentCity() 
