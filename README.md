@@ -18,9 +18,9 @@ const WhoAmI =
    "Watch Movies",
 }
 	
- function getCurrentCity() 
+function getCurrentCity() 
 {
-	return Americana_Sao_Paulo_Brazil
+	return 'Americana, São Paulo - Brazil'
 }
 
  ```
