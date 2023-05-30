@@ -54,7 +54,7 @@ Learning:
 
  <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=mysql,nodejs,php"/>
+    <img src="https://skillicons.dev/icons?i=mysql,nodejs,angular"/>
   </a>
 </p>
  
