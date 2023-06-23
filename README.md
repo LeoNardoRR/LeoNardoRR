@@ -12,7 +12,7 @@
 const WhoAmI = 
 {
   user: "Leonardo R.",
-  student: "Java and Silq",
+  student: "Python and Silq",
   hobbies: [
    "Studying",
    "Watch Movies",
