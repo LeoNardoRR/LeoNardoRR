@@ -4,7 +4,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?size=26&duration=2500&color=FFFFFF&background=00FF8E00&left=true&multiline=true&width=650&height=140&lines=Hi!+I'm+Léo,+;student+developer!;Feel+free+to+take+a+look+my+repositories.+)](https://git.io/typing-svg)
 </div>
 
-- Security Information Student - FATEC (4/6) 📚
+- Security Information Student - FATEC (5/6) 📚
 - Scientific Researcher (Quantum computing) - FATEC 👨‍💼 
 
 ```javascript
