@@ -46,7 +46,7 @@ function getCurrentCity()
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,python"/>
+    <img src="https://skillicons.dev/icons?i=html,css,python"/>
   </a>
 </p>
  
@@ -54,7 +54,7 @@ Learning:
 
  <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=mysql,nodejs"/>
+    <img src="https://skillicons.dev/icons?i=mysql,vuejs,java,js"/>
   </a>
 </p>
  
