@@ -32,9 +32,8 @@ function getCurrentCity()
 
 <br>
 
-<!--Visit counter: <br>
+Visit counter: <br>
 <img src="https://profile-counter.glitch.me/LeoNardoRR/count.svg" />
--->
 
 <div align="center">
   <a href="https://github.com/LeoNardoRR">
