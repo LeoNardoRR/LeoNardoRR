@@ -6,6 +6,10 @@ I design and implement integrations that connect CRM platforms, APIs, and busine
 
 My background in ERP support and quality assurance gives me a strong foundation in troubleshooting, testing, documentation, data analysis, and production stability. Alongside integration work, I build full-stack projects to strengthen my software engineering skills.
 
+<p align="center">
+  <img src="./assets/automation-flow.svg" alt="Animated flow connecting CRM, APIs, automation, and applications" width="100%">
+</p>
+
 ---
 
 ## What I work with
