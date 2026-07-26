@@ -1,98 +1,105 @@
 # Hi, I'm Leonardo Ribeiro 👋
 
-### Systems Analyst focused on CRM automation, API integrations, and reliable business workflows
+### Systems Analyst turning technical studies into practical projects
 
-I design and implement integrations that connect CRM platforms, APIs, and business systems. My current work combines **Kommo CRM**, **n8n**, **JavaScript**, **REST APIs**, and **Webhooks** to automate processes, qualify leads, and reduce repetitive operational work.
+I use this GitHub as the practical extension of my Obsidian knowledge base. The goal is simple: study a concept, implement it, test it, document the result, and use what I learned in a new project.
 
-My background in ERP support and quality assurance gives me a strong foundation in troubleshooting, testing, documentation, data analysis, and production stability. Alongside integration work, I build full-stack projects to strengthen my software engineering skills.
+My current learning path is focused on the foundations behind system integration and backend development: **HTTP**, **REST APIs**, **authentication**, **Webhooks**, **SQL**, **Docker**, **JavaScript**, and **automation**.
 
 <p align="center">
-  <img src="./assets/automation-flow.svg" alt="Animated flow connecting CRM, APIs, automation, and applications" width="100%">
+  <img src="./assets/automation-flow.svg" alt="Animated learning pipeline from notes to documented projects" width="100%">
 </p>
 
 ---
 
-## What I work with
+## How I use this GitHub
 
-- CRM automation, Salesbots, pipelines, and lead qualification flows
-- REST API and Webhook integrations
-- Business requirements and integration feasibility analysis
-- Workflow testing, documentation, monitoring, and production support
-- Full-stack applications with React, TypeScript, Node.js, and Supabase
+```text
+OBSIDIAN NOTES
+      ↓
+UNDERSTAND THE CONCEPT
+      ↓
+BUILD A SMALL IMPLEMENTATION
+      ↓
+TEST AND DEBUG
+      ↓
+DOCUMENT THE RESULT
+      ↓
+COMBINE IT INTO A PROJECT
+```
 
-## Technologies
+Each repository should demonstrate more than finished code. I want it to record the reasoning, decisions, errors, tests, and improvements behind the implementation.
 
-### Automation & integration
+## Current learning path
 
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-![Kommo CRM](https://img.shields.io/badge/Kommo_CRM-146EF5?style=flat-square&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-005571?style=flat-square&logo=fastapi&logoColor=white)
-![Webhooks](https://img.shields.io/badge/Webhooks-2D3748?style=flat-square&logo=webhook&logoColor=white)
+### Web & API foundations
+
+![HTTP](https://img.shields.io/badge/HTTP-005571?style=flat-square)
+![REST APIs](https://img.shields.io/badge/REST_APIs-0F766E?style=flat-square)
+![Webhooks](https://img.shields.io/badge/Webhooks-7C3AED?style=flat-square)
+![Authentication](https://img.shields.io/badge/Authentication-DC2626?style=flat-square)
 ![JSON](https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white)
 
-### Development
+- Client-server communication
+- Requests, responses, headers, methods, and status codes
+- REST resource design and endpoint behavior
+- Authentication and authorization strategies
+- Synchronous and asynchronous communication
+- Webhooks, retries, validation, and error handling
 
+### Data, environment & automation
+
+![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=000)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-### Data, backend & tools
-
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+
+- SQL fundamentals and data manipulation
+- Reproducible environments with Docker
+- Workflow automation and system communication
+- JavaScript applied to requests, payloads, and transformations
+- Version control, documentation, and project evolution
 
 ---
 
-## Featured projects
+## Repository standard
 
-| Project | What it demonstrates | Stack |
-| --- | --- | --- |
-| [**FitApp — Personal Trainer Platform**](https://github.com/LeoNardoRR/radiant-trainer-hub) | Mobile-first platform for managing students, schedules, sessions, payments, and retention | React, TypeScript, Supabase, PostgreSQL, Tailwind CSS, PWA |
-| [**Order Management REST API**](https://github.com/LeoNardoRR/order-api) | Deployed CRUD API with validation, structured business logic, and error handling | Node.js, Express, MongoDB Atlas, Mongoose, Joi |
-| [**Classical to Quantum Technology**](https://github.com/LeoNardoRR/classical-technology-to-quantum) | Academic research into platforms and languages for the transition to quantum computing | Python, Silq, research |
+My study repositories will progressively follow this structure:
 
----
+```text
+project/
+├── README.md           # problem, concept, setup, and decisions
+├── src/                # implementation
+├── examples/           # requests, responses, and payloads
+├── tests/              # expected behavior and edge cases
+├── docs/               # diagrams and deeper notes
+└── docker/             # reproducible environment when relevant
+```
 
-## Professional journey
+A useful project should explain:
 
-**Junior System Analyst — Komanda F5**
-`May 2026 – Present · Remote`
+1. What problem it solves
+2. Which concept is being practiced
+3. How to run and test it
+4. Which errors and edge cases were considered
+5. What I learned and what I would improve next
 
-- Building Kommo CRM automations, Salesbots, pipelines, and custom workflows
-- Creating integrations with REST APIs, Webhooks, JavaScript, and n8n
-- Gathering requirements, testing solutions, documenting workflows, and supporting production
+## Roadmap
 
-**Support Analyst — MKData Software**
-`March 2023 – February 2026`
+1. HTTP and client-server fundamentals
+2. REST APIs and resource modeling
+3. Authentication and authorization
+4. Webhooks and asynchronous workflows
+5. SQL and data persistence
+6. Docker and reproducible environments
+7. Automation and system integration
+8. Projects combining the complete learning path
 
-- Progressed from Junior to Mid-Level Support Analyst
-- Tested ERP functionality and investigated incidents and data inconsistencies
-- Worked with Firebird, IBExpert, FastReport, QA, and technical support
+## Background
 
----
-
-## Education & highlights
-
-- **Degree in Information Security** — Fatec Americana, 2024
-- **Technical Degree in Computer Science** — ETEC Monte Mor, 2019
-- **1st Place — IV MCTEC 2018**, with the CLICKARD project
-- **1st Place — 2nd Regional Technology Fair (FETEC 2018)**, with the CLICKARD project
-
----
-
-## Current focus
-
-- Designing safer and more maintainable integrations
-- Improving backend development and software architecture skills
-- Building practical projects with APIs, automation, and cloud services
-- Documenting technical decisions and production lessons
+I work with systems and integrations and previously worked with ERP support and quality assurance. That experience influences how I study and build: with attention to troubleshooting, testing, documentation, and production reliability.
 
 ## Connect with me
 
