@@ -6,6 +6,8 @@ I use this GitHub as the practical extension of my Obsidian knowledge base. The 
 
 My current learning path is focused on the foundations behind system integration and backend development: **HTTP**, **REST APIs**, **authentication**, **Webhooks**, **SQL**, **Docker**, **JavaScript**, and **automation**.
 
+Alongside this learning roadmap, I preserve the research and awarded projects that shaped my technical background.
+
 <p align="center">
   <img src="./assets/automation-flow.svg" alt="Animated learning pipeline from notes to documented projects" width="100%">
 </p>
@@ -85,6 +87,26 @@ A useful project should explain:
 3. How to run and test it
 4. Which errors and edge cases were considered
 5. What I learned and what I would improve next
+
+## Research & achievements
+
+### Scientific research in quantum computing
+
+**Analysis of computational platforms and programming languages for the migration from classical technology to quantum technology**
+
+Academic research developed at Fatec Americana under the guidance of **Dr. Mariana Godoy Vazquez Miano**. The work explored the transition from classical to quantum computing through technical research and practical experiments, including integer-factorization approaches based on Fermat's and Shor's algorithms.
+
+- [Research repository](https://github.com/LeoNardoRR/classical-technology-to-quantum)
+- [Final scientific paper — PDF](https://github.com/LeoNardoRR/classical-technology-to-quantum/blob/main/SICT/artigos/SICT_ELS_FINAL.pdf)
+- Contribution: development and technical experimentation
+
+### CLICKARD — awarded technical project
+
+Application created during my Technical Degree in Computer Science to make transportation information more accessible, including cards, bus schedules, and online top-ups.
+
+- **1st Place — IV MCTEC 2018**
+- **1st Place — 2nd Regional Technology Fair (FETEC 2018)**
+- **Fisk Highlight Award — IV MCTEC 2019**
 
 ## Roadmap
 
