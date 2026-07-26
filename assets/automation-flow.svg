@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img">
+  <title>Animated learning pipeline</title>
+  <desc>Technical notes flow through code and testing into documented GitHub projects.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050b16"/>
+      <stop offset="0.48" stop-color="#0b1222"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+
+    <linearGradient id="spectrum" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.34" stop-color="#8b5cf6"/>
+      <stop offset="0.68" stop-color="#f59e0b"/>
+      <stop offset="1" stop-color="#22c55e"/>
+    </linearGradient>
+
+    <radialGradient id="cyanNode">
+      <stop offset="0" stop-color="#164e63"/>
+      <stop offset="1" stop-color="#082f49"/>
+    </radialGradient>
+    <radialGradient id="purpleNode">
+      <stop offset="0" stop-color="#3b1d68"/>
+      <stop offset="1" stop-color="#21133d"/>
+    </radialGradient>
+    <radialGradient id="amberNode">
+      <stop offset="0" stop-color="#5f370c"/>
+      <stop offset="1" stop-color="#3b2309"/>
+    </radialGradient>
+    <radialGradient id="greenNode">
+      <stop offset="0" stop-color="#14532d"/>
+      <stop offset="1" stop-color="#092f1a"/>
+    </radialGradient>
+
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#000" flood-opacity="0.38"/>
+    </filter>
+
+    <path id="path1" d="M225 165 C285 125 325 125 385 165"/>
+    <path id="path2" d="M495 165 C555 205 595 205 655 165"/>
+    <path id="path3" d="M765 165 C825 125 865 125 925 165"/>
+  </defs>
+
+  <rect width="1200" height="330" rx="28" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="1197" height="327" rx="26.5" fill="none" stroke="#273449" stroke-width="3"/>
+
+  <g opacity="0.12" stroke="#64748b">
+    <path d="M0 62H1200M0 112H1200M0 218H1200M0 268H1200"/>
+    <path d="M78 0V330M178 0V330M1022 0V330M1122 0V330"/>
+    <circle cx="600" cy="165" r="145" fill="none"/>
+    <circle cx="600" cy="165" r="210" fill="none"/>
+  </g>
+
+  <text x="52" y="45" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="16" letter-spacing="3.5">
+    LEARN • BUILD • TEST • DOCUMENT • REPEAT
+  </text>
+  <text x="1148" y="45" text-anchor="end" fill="#64748b" font-family="monospace" font-size="14">
+    KNOWLEDGE_PIPELINE
+  </text>
+
+  <g fill="none" stroke="url(#spectrum)" stroke-width="4" stroke-linecap="round" opacity="0.78">
+    <use href="#path1" stroke-dasharray="9 13">
+      <animate attributeName="stroke-dashoffset" from="44" to="0" dur="1.6s" repeatCount="indefinite"/>
+    </use>
+    <use href="#path2" stroke-dasharray="9 13">
+      <animate attributeName="stroke-dashoffset" from="44" to="0" dur="1.6s" begin="0.25s" repeatCount="indefinite"/>
+    </use>
+    <use href="#path3" stroke-dasharray="9 13">
+      <animate attributeName="stroke-dashoffset" from="44" to="0" dur="1.6s" begin="0.5s" repeatCount="indefinite"/>
+    </use>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle r="6" fill="#22d3ee">
+      <animateMotion dur="2s" repeatCount="indefinite">
+        <mpath href="#path1"/>
+      </animateMotion>
+    </circle>
+    <circle r="6" fill="#8b5cf6">
+      <animateMotion dur="2s" begin="0.45s" repeatCount="indefinite">
+        <mpath href="#path2"/>
+      </animateMotion>
+    </circle>
+    <circle r="6" fill="#f59e0b">
+      <animateMotion dur="2s" begin="0.9s" repeatCount="indefinite">
+        <mpath href="#path3"/>
+      </animateMotion>
+    </circle>
+  </g>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(165 165)">
+      <circle r="62" fill="url(#cyanNode)" stroke="#22d3ee" stroke-width="3"/>
+      <circle r="68" fill="none" stroke="#22d3ee" stroke-width="2">
+        <animate attributeName="r" values="64;76;64" dur="3.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.55;0;0.55" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+      <rect x="-26" y="-31" width="52" height="62" rx="6" fill="none" stroke="#e2e8f0" stroke-width="3"/>
+      <path d="M-15-16H15M-15-5H9M-15 6H15M-15 17H5" stroke="#22d3ee" stroke-width="3" stroke-linecap="round"/>
+      <text x="0" y="91" text-anchor="middle" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">NOTES</text>
+    </g>
+
+    <g transform="translate(435 165)">
+      <circle r="62" fill="url(#purpleNode)" stroke="#8b5cf6" stroke-width="3"/>
+      <circle r="68" fill="none" stroke="#8b5cf6" stroke-width="2">
+        <animate attributeName="r" values="64;76;64" dur="3.2s" begin="0.55s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.55;0;0.55" dur="3.2s" begin="0.55s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M-9-24L-31 0L-9 24M9-24L31 0L9 24" fill="none" stroke="#f8fafc" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M5-31L-5 31" stroke="#8b5cf6" stroke-width="4" stroke-linecap="round"/>
+      <text x="0" y="91" text-anchor="middle" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">CODE</text>
+    </g>
+
+    <g transform="translate(705 165)">
+      <circle r="62" fill="url(#amberNode)" stroke="#f59e0b" stroke-width="3"/>
+      <circle r="68" fill="none" stroke="#f59e0b" stroke-width="2">
+        <animate attributeName="r" values="64;76;64" dur="3.2s" begin="1.1s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.55;0;0.55" dur="3.2s" begin="1.1s" repeatCount="indefinite"/>
+      </circle>
+      <rect x="-33" y="-25" width="66" height="50" rx="6" fill="none" stroke="#f8fafc" stroke-width="4"/>
+      <path d="M-21-9L-10 0L-21 9M-3 11H20" fill="none" stroke="#f59e0b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="0" y="91" text-anchor="middle" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">TEST</text>
+    </g>
+
+    <g transform="translate(975 165)">
+      <circle r="62" fill="url(#greenNode)" stroke="#22c55e" stroke-width="3"/>
+      <circle r="68" fill="none" stroke="#22c55e" stroke-width="2">
+        <animate attributeName="r" values="64;76;64" dur="3.2s" begin="1.65s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.55;0;0.55" dur="3.2s" begin="1.65s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="-18" cy="-14" r="7" fill="#22c55e"/>
+      <circle cx="18" cy="0" r="7" fill="#22c55e"/>
+      <circle cx="-18" cy="16" r="7" fill="#22c55e"/>
+      <path d="M-11-14H3C13-14 18-9 18 0M-11 16H3C13 16 18 11 18 0" fill="none" stroke="#f8fafc" stroke-width="4" stroke-linecap="round"/>
+      <text x="0" y="91" text-anchor="middle" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">PROJECT</text>
+    </g>
+  </g>
+
+  <g transform="translate(52 300)">
+    <rect width="1096" height="5" rx="2.5" fill="#1e293b"/>
+    <rect width="230" height="5" rx="2.5" fill="url(#spectrum)">
+      <animate attributeName="x" values="-230;1096" dur="3.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g font-family="monospace" font-size="14">
+    <text x="165" y="291" text-anchor="middle" fill="#22d3ee">capture()</text>
+    <text x="435" y="291" text-anchor="middle" fill="#a78bfa">implement()</text>
+    <text x="705" y="291" text-anchor="middle" fill="#fbbf24">validate()</text>
+    <text x="975" y="291" text-anchor="middle" fill="#4ade80">publish()</text>
+  </g>
+</svg>
