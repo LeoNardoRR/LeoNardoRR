@@ -41,6 +41,15 @@ This profile is a portfolio of completed projects, technical implementations, an
 
 Academic research developed at Fatec Americana under the guidance of **Dr. Mariana Godoy Vazquez Miano**. The work examined the transition from classical to quantum computing through technical research and practical experiments, including integer-factorization approaches based on Fermat's and Shor's algorithms.
 
+**Languages and technologies used**
+
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter_Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Q#](https://img.shields.io/badge/Q%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+
 - [Research repository](https://github.com/LeoNardoRR/classical-technology-to-quantum)
 - [Final scientific paper — PDF](https://github.com/LeoNardoRR/classical-technology-to-quantum/blob/main/SICT/artigos/SICT_ELS_FINAL.pdf)
 - Role: development and technical experimentation
