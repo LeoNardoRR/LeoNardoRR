@@ -1,51 +1,151 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
-  <title id="title">Minimal software delivery flow</title>
-  <desc id="desc">A minimal, accessible illustration of a four-step delivery pipeline.</desc>
-  <style><![CDATA[
-    :root{--bg:#0b1222;--muted:#94a3b8;--accent:#22d3ee}
-    svg{display:block;background:var(--bg);border-radius:12px}
-    .line{stroke:var(--muted);stroke-width:1.2;stroke-linecap:round}
-    .node{fill:none;stroke:var(--muted);stroke-width:1.2}
-    .dot{fill:var(--accent)}
-    .label{fill:var(--muted);font-family:Inter, Arial, sans-serif;font-size:12px}
-    /* Respect users who prefer reduced motion */
-    @media (prefers-reduced-motion: reduce) {
-      .move { display: none !important; }
-    }
-  ]]></style>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Elegant pipeline: from idea to delivery</title>
+  <desc id="desc">A graceful animated illustration showing requirements flowing through design, verification and delivery with soft motion and glowing accents. Includes reduced-motion preference handling.</desc>
 
-  <!-- guideline line and nodes -->
-  <g transform="translate(60,80)">
-    <path id="route" d="M0 40 H1080" class="line" fill="none"/>
+  <defs>
+    <style><![CDATA[
+      /* Color tokens */
+      :root{--bg1:#071023;--bg2:#0b1630;--muted:#94a3b8;--accent-cyan:#61dafb;--accent-purple:#a78bfa;--accent-amber:#fbbf24;--accent-green:#4ade80}
 
-    <!-- four minimal nodes -->
-    <g transform="translate(0,0)">
-      <circle class="node" cx="0" cy="40" r="6"/>
-      <text class="label" x="0" y="62" text-anchor="middle">analyze()</text>
+      svg{display:block;border-radius:14px;background:linear-gradient(180deg,var(--bg1),var(--bg2));}
+
+      .grid { stroke: rgba(255,255,255,0.03); stroke-width:1 }
+      .track { fill: none; stroke: rgba(255,255,255,0.06); stroke-width:1.2; stroke-linecap:round }
+
+      .flow { stroke-linecap:round; stroke-width:3; filter: drop-shadow(0 6px 10px rgba(0,0,0,0.45)); }
+
+      .node-bg { fill: rgba(255,255,255,0.03); stroke: rgba(255,255,255,0.06); }
+      .node-core { filter: url(#glow); }
+      .label { fill: var(--muted); font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial; font-size:13px }
+
+      /* moving gradients and shimmer */
+      .sweep { opacity:0.95 }
+
+      /* animated pulse using CSS for better fallback */
+      @keyframes pulse-scale { 0% { transform: scale(1); opacity:1 } 50% { transform: scale(1.14); opacity:0.55 } 100% { transform: scale(1); opacity:1 } }
+      .pulse { transform-origin: center; animation: pulse-scale 3.6s ease-in-out infinite }
+
+      /* floating micro-particles */
+      @keyframes floaty { 0% { transform: translateY(0) } 50% { transform: translateY(-6px) } 100% { transform: translateY(0) } }
+      .micro { animation: floaty 4.2s ease-in-out infinite }
+
+      /* subtle arrow along path using dash animation */
+      @keyframes dash { to { stroke-dashoffset: 0 } }
+      .dash { stroke-dasharray: 12 12; stroke-dashoffset: 48; animation: dash 1.8s linear infinite }
+
+      /* reduced motion: stop most animations */
+      @media (prefers-reduced-motion: reduce) {
+        .pulse, .micro, .dash, .sweep, .mover { animation: none !important; display: none !important }
+        .flow { stroke-dasharray: none; stroke-dashoffset: 0 }
+      }
+
+    ]]></style>
+
+    <linearGradient id="grad1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="var(--accent-cyan)"/>
+      <stop offset="0.45" stop-color="var(--accent-purple)"/>
+      <stop offset="0.8" stop-color="var(--accent-amber)"/>
+      <stop offset="1" stop-color="var(--accent-green)"/>
+    </linearGradient>
+
+    <radialGradient id="coreCyan" cx="50%" cy="40%" r="60%">
+      <stop offset="0" stop-color="#dff8ff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#0a3745" stop-opacity="0.8"/>
+    </radialGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- paths for motion -->
+    <path id="p1" d="M160 180 C 320 120, 440 120, 520 180"/>
+    <path id="p2" d="M520 180 C 600 240, 720 240, 880 180"/>
+    <path id="p3" d="M880 180 C 980 120, 1080 120, 1040 180"/>
+  </defs>
+
+  <!-- faint grid for depth -->
+  <g opacity="0.06">
+    <rect x="40" y="40" width="1120" height="260" rx="10" fill="none" stroke="rgba(255,255,255,0.02)"/>
+    <g stroke-width="1" class="grid">
+      <path d="M60 60 H1140" />
+      <path d="M60 120 H1140" />
+      <path d="M60 180 H1140" />
+      <path d="M60 240 H1140" />
     </g>
+  </g>
 
-    <g transform="translate(360,0)">
-      <circle class="node" cx="0" cy="40" r="6"/>
-      <text class="label" x="0" y="62" text-anchor="middle">architect()</text>
-    </g>
+  <!-- labels top -->
+  <text x="72" y="60" fill="#9ca3af" font-size="13" font-family="Inter, Arial, sans-serif">UNDERSTAND · DESIGN · VERIFY · DELIVER</text>
 
-    <g transform="translate(720,0)">
-      <circle class="node" cx="0" cy="40" r="6"/>
-      <text class="label" x="0" y="62" text-anchor="middle">verify()</text>
-    </g>
+  <!-- main decorative flow lines -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <use href="#p1" class="flow dash" stroke="url(#grad1)" stroke-opacity="0.9" />
+    <use href="#p2" class="flow dash" stroke="url(#grad1)" stroke-opacity="0.85" />
+    <use href="#p3" class="flow dash" stroke="url(#grad1)" stroke-opacity="0.8" />
+  </g>
 
-    <g transform="translate(1080,0)">
-      <circle class="node" cx="0" cy="40" r="6"/>
-      <text class="label" x="0" y="62" text-anchor="middle">deliver()</text>
-    </g>
-
-    <!-- subtle moving dot to suggest flow; hidden for reduced-motion -->
-    <g class="move" aria-hidden="true">
-      <circle class="dot" r="4">
-        <animateMotion dur="3s" repeatCount="indefinite">
-          <mpath href="#route" />
-        </animateMotion>
+  <!-- moving glow orbs along paths (SMIL animateMotion; if sanitized, CSS fallback keeps static accents) -->
+  <g aria-hidden="true">
+    <g class="mover" opacity="0.95">
+      <circle r="8" fill="#61dafb" filter="url(#glow)">
+        <animateMotion dur="3s" repeatCount="indefinite" path="M160 180 C 320 120, 440 120, 520 180" />
+      </circle>
+      <circle r="7" fill="#a78bfa" filter="url(#glow)">
+        <animateMotion dur="3.4s" begin="0.3s" repeatCount="indefinite" path="M520 180 C 600 240, 720 240, 880 180" />
+      </circle>
+      <circle r="6" fill="#fbbf24" filter="url(#glow)">
+        <animateMotion dur="3.2s" begin="0.6s" repeatCount="indefinite" path="M880 180 C 980 120, 1080 120, 1040 180" />
       </circle>
     </g>
   </g>
+
+  <!-- nodes with subtle cores and labels -->
+  <g filter="url(#glow)">
+    <g transform="translate(140,180)">
+      <circle class="node-bg" r="26"/>
+      <circle class="node-core pulse" r="10" fill="url(#coreCyan)" />
+      <text class="label" x="0" y="48" text-anchor="middle">REQUIREMENTS</text>
+    </g>
+
+    <g transform="translate(520,180)">
+      <circle class="node-bg" r="26"/>
+      <circle class="node-core pulse" r="10" fill="#5b3fc0" />
+      <text class="label" x="0" y="48" text-anchor="middle">SOLUTION</text>
+    </g>
+
+    <g transform="translate(880,180)">
+      <circle class="node-bg" r="26"/>
+      <circle class="node-core pulse" r="10" fill="#f59e0b" />
+      <text class="label" x="0" y="48" text-anchor="middle">VALIDATION</text>
+    </g>
+
+    <g transform="translate(1040,180)">
+      <circle class="node-bg" r="26"/>
+      <circle class="node-core pulse" r="10" fill="#34d399" />
+      <text class="label" x="0" y="48" text-anchor="middle">DELIVERY</text>
+    </g>
+  </g>
+
+  <!-- tiny ambient micro-particles for elegance -->
+  <g fill="#fff" opacity="0.72">
+    <circle class="micro" cx="220" cy="110" r="1.6" fill="#61dafb"/>
+    <circle class="micro" cx="340" cy="140" r="1.2" fill="#a78bfa"/>
+    <circle class="micro" cx="660" cy="100" r="1.4" fill="#fbbf24"/>
+    <circle class="micro" cx="980" cy="140" r="1.2" fill="#34d399"/>
+  </g>
+
+  <!-- bottom progress ribbon subtle shimmer -->
+  <g transform="translate(60,300)">
+    <rect width="1080" height="6" rx="3" fill="rgba(255,255,255,0.04)" />
+    <rect width="220" height="6" rx="3" class="sweep" fill="url(#grad1)" opacity="0.95">
+      <animate attributeName="x" from="-240" to="1100" dur="3.8s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- tiny credits (optional) -->
+  <text x="1100" y="346" font-size="10" fill="#6b7280" text-anchor="end">minimal • elegant</text>
 </svg>
