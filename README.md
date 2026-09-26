@@ -15,7 +15,7 @@
 
 <h2 align="center">🚀 About me</h2>
 
-<img align="right" src="./assets/ascii-astronaut.gif" alt="Original ASCII astronaut floating with a laptop" width="280" />
+<img align="right" src="./assets/ascii-astronaut-v2.gif" alt="Original ASCII astronaut floating with a laptop" width="280" />
 
 I design and implement solutions that connect systems, automate business processes, and turn technical requirements into reliable software. My work sits where **systems analysis, APIs, data, automation, and Martech** meet.
 
