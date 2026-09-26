@@ -1,4 +1,4 @@
-<p align="center"><img src="./assets/ascii-hands.gif" alt="Original ASCII hands animation: two hands reaching toward each other" width="100%" /></p>
+<p align="center"><img src="./assets/ascii-hands-contact.gif" alt="Original ASCII hands animation: fingertips meet and emit a blue-white light" width="100%" /></p>
 
 <h1 align="center">Hi, I'm Leonardo Ribeiro 👋</h1>
 <p align="center"><strong>Systems Analyst · Integrations · Automation · APIs · Martech</strong></p>
