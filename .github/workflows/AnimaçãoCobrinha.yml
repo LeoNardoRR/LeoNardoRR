@@ -1,4 +1,4 @@
-name: Contribution snake
+name: Contribution arcade
 
 on:
   schedule:
@@ -12,13 +12,11 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate light and dark animations
-        uses: Platane/snk/svg-only@v3
+      - name: Generate Pac-Man from Leonardo's contributions
+        uses: abozanona/pacman-contribution-graph@7332e1de7903ab780c3692a4127a59cc13872daa
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          games: pacman
 
       - name: Publish animations
         uses: crazy-max/ghaction-github-pages@v5

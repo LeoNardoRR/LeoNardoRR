@@ -1,21 +1,21 @@
-<p align="center"><img src="./assets/profile-hero.svg" alt="Leonardo Ribeiro — systems, integrations, automation and data" width="100%" /></p>
+<p align="center"><img src="./assets/ascii-hands.gif" alt="Original ASCII hands animation: two hands reaching toward each other" width="100%" /></p>
 
 <h1 align="center">Hi, I'm Leonardo Ribeiro 👋</h1>
 <p align="center"><strong>Systems Analyst · Integrations · Automation · APIs · Martech</strong></p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3200&pause=900&color=20BFA9&center=true&vCenter=true&width=680&lines=Connecting+systems+and+business+processes;Turning+requirements+into+reliable+solutions;Building+with+APIs%2C+automation+and+data" alt="Typing animation describing Leonardo's work" /></a>
+  <a href="https://github.com/LeoNardoRR"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3200&pause=900&color=3B82F6&center=true&vCenter=true&width=680&lines=Connecting+systems+and+business+processes;Turning+requirements+into+reliable+solutions;Building+with+APIs%2C+automation+and+data" alt="Typing animation describing Leonardo's work" /></a>
 </p>
 <p align="center">
   <a href="https://www.linkedin.com/in/leonardo-r2022"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
   <a href="https://github.com/LeoNardoRR/leonardo-ribeiro-portfolio"><img src="https://img.shields.io/badge/Portfolio-Explore-172554?style=for-the-badge&logo=githubpages&logoColor=white" alt="Explore portfolio repository" /></a>
 </p>
 
----
+<br />
 
-## 🚀 About me
+<h2 align="center">🚀 About me</h2>
 
-<img align="right" src="./assets/automation-flow.svg" alt="Animated path from requirements through validation to delivery" width="46%" />
+<img align="right" src="./assets/ascii-astronaut.gif" alt="Original ASCII astronaut floating with a laptop" width="280" />
 
 I design and implement solutions that connect systems, automate business processes, and turn technical requirements into reliable software. My work sits where **systems analysis, APIs, data, automation, and Martech** meet.
 
@@ -28,9 +28,9 @@ My background in **quality assurance and ERP support** shapes how I build: under
 
 <br clear="right" />
 
----
+<br />
 
-## 💻 Tech stack & focus
+<h2 align="center">💻 Tech stack & focus</h2>
 
 <p align="center"><img src="https://skillicons.dev/icons?i=js,python,java,html,css,docker,git,github,postgres&perline=9" alt="JavaScript, Python, Java, HTML, CSS, Docker, Git, GitHub and PostgreSQL" /></p>
 <p align="center">
@@ -43,9 +43,9 @@ My background in **quality assurance and ERP support** shapes how I build: under
 
 I also work with reproducible environments, technical documentation, and solutions that connect software to real business requirements.
 
----
+<br />
 
-## 🧩 Featured projects
+<h2 align="center">🧩 Featured projects</h2>
 
 ### [Clinical scheduling system](https://github.com/LeoNardoRR/agenda-clinica-fullstack)
 
@@ -63,26 +63,26 @@ An application created during my Technical Degree in Computer Science to make pu
 
 **Awards:** 1st place at IV MCTEC 2018 and the 2nd Regional Technology Fair (FETEC 2018); Fisk Highlight Award at IV MCTEC 2019.
 
----
+<br />
 
-## 📊 GitHub at a glance
+<h2 align="center">📊 GitHub at a glance</h2>
 
 <p align="center">
   <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=LeoNardoRR&theme=github_dark" alt="Leonardo's GitHub statistics" />
   <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=LeoNardoRR&theme=github_dark" alt="Languages across Leonardo's public repositories" />
 </p>
 
-## 📈 Activity graph
+<h2 align="center">📈 Activity graph</h2>
 
 <p align="center"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=LeoNardoRR&theme=github_dark" alt="GitHub contribution activity graph" width="100%" /></p>
 
-## 🐍 Commit activity
+<h2 align="center">👾 Commit activity</h2>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/LeoNardoRR/LeoNardoRR/output/github-contribution-grid-snake.svg" alt="Animated snake moving across Leonardo's contribution grid" width="100%" />
+  <img src="https://raw.githubusercontent.com/LeoNardoRR/LeoNardoRR/output/pacman-contribution-graph-dark.svg" alt="Pac-Man playing across Leonardo's contribution grid" width="100%" />
 </p>
 
----
+<br />
 
 <p align="center"><strong>From requirements to production, with clarity at every step.</strong></p>
 <p align="center"><a href="https://www.linkedin.com/in/leonardo-r2022">Let's connect on LinkedIn</a></p>
